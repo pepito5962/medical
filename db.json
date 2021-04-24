@@ -1,0 +1,26 @@
+{
+  "medecins": [
+    {
+      "nom": "boo",
+      "prenom": "far",
+      "status": "conge",
+      "ville": "calais"
+    },
+    {
+      "nom": "test",
+      "prenom": "test",
+      "status": "actif",
+      "ville": "boulogne"
+    }
+  ],
+  "patients": [
+    {
+      "age": "21",
+      "medecinTraitant": "0",
+      "nom": "poix",
+      "prenom": "erick",
+      "status": "traitement",
+      "ville": "socx"
+    }
+  ]
+}
