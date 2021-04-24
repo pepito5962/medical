@@ -6,6 +6,7 @@ const router = jsonServer.router(
 );
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
+console.log(`Express is working on port ${port}`);
 
 server.use(middlewares);
 server.use(router);
