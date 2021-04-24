@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Les medecins</h2>
+    <div class="list-group">
+      <button
+        class="list-group-item"
+        *ngFor="let medecin of medecins; let i = index"
+        (click)="onViewMedecin(i)"
+        [ngStyle]="{ color: getColor(i) }"
+      >
+        <h3 class="list-group-item-header">
+          {{ medecin.nom }} {{ medecin.prenom }}
+          <button
+            class="btn btn-default pull-right"
+            (click)="onDeleteMedecin(medecin)"
+            style="background-color: red; color: white"
+          >
+            <span class="glyphicon glyphicon-minus"></span>
+          </button>
+        </h3>
+        <p class="list-group-item-text">{{ medecin.ville }}</p>
+      </button>
+    </div>
+    <button class="btn btn-primary" (click)="onNewMedecin()">
+      Nouveau Medecin
+    </button>
+  </div>
+</div>

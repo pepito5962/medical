@@ -1,0 +1,68 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{ medecin.nom }} {{ medecin.prenom }}</h1>
+    <h3>{{ medecin.ville }}</h3>
+    <h3 [ngStyle]="{ color: getColor() }">{{ medecin.status }}</h3>
+    <button class="btn btn-default" (click)="onBack()">Retour</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h2>Modifier un medecin</h2>
+    <form [formGroup]="medecinForm" (ngSubmit)="onUpdateMedecin()">
+      <div class="form-group">
+        <label for="nom">Nom</label>
+        <input
+          type="text"
+          class="form-control"
+          id="nom"
+          formControlName="nom"
+          value="{{ medecin.nom }}"
+          [(ngModel)]="medecin.nom"
+        />
+      </div>
+      <div class="form-group">
+        <label for="prenom">Prenom</label>
+        <input
+          type="text"
+          class="form-control"
+          id="prenom"
+          formControlName="prenom"
+          value="{{ medecin.prenom }}"
+          [(ngModel)]="medecin.prenom"
+        />
+      </div>
+      <div class="form-group">
+        <label for="status">Statut</label>
+        <select
+          class="form-control"
+          id="status"
+          formControlName="status"
+          [(ngModel)]="medecin.status"
+        >
+          <option value="actif">actif</option>
+          <option value="conge">En congé</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="ville">Ville</label>
+        <input
+          type="text"
+          class="form-control"
+          id="ville"
+          formControlName="ville"
+          value="{{ medecin.ville }}"
+          [(ngModel)]="medecin.ville"
+        />
+      </div>
+      <button
+        class="btn btn-success"
+        [disabled]="medecinForm.invalid"
+        type="submit"
+      >
+        Enregistrer
+      </button>
+    </form>
+  </div>
+</div>
