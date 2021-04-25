@@ -1,12 +1,14 @@
 {
   "medecins": [
     {
+      "id": 0,
       "nom": "boo",
       "prenom": "far",
       "status": "conge",
       "ville": "calais"
     },
     {
+      "id": 1,
       "nom": "test",
       "prenom": "test",
       "status": "actif",
@@ -15,6 +17,7 @@
   ],
   "patients": [
     {
+      "id": 0,
       "age": "21",
       "medecinTraitant": "0",
       "nom": "poix",
