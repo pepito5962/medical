@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "752b9301-b61a-4410-b81f-a925bf6cd772",
+		"name": "medical",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://angular-medical.herokuapp.com/medecins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://angular-medical.herokuapp.com/medecins",
+					"protocol": "https",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"medecins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/medecins",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"nom\": \"poix\",\r\n    \"prenom\": \"erick\",\r\n    \"status\": \"actif\",\r\n    \"ville\": \"Dunkerque\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/medecins",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"medecins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/medecins/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"nom\": \"poix\",\r\n    \"prenom\": \"erick\",\r\n    \"status\": \"actif\",\r\n    \"ville\": \"Dunkerque\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/medecins/2",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"medecins",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/medecins/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"nom\": \"poix\",\r\n    \"prenom\": \"erick\",\r\n    \"status\": \"actif\",\r\n    \"ville\": \"Lille\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/medecins/2",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"medecins",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/medecins/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/medecins/2",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"medecins",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://angular-medical.herokuapp.com/patients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://angular-medical.herokuapp.com/patients",
+					"protocol": "https",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/patients",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"age\": \"36\",\r\n    \"medecinTraitant\": \"1\",\r\n    \"nom\": \"Veriepe\",\r\n    \"prenom\": \"Didier\",\r\n    \"status\": \"traite\",\r\n    \"ville\": \"Sydney\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/patients",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/patients/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"nom\": \"poix\",\r\n    \"prenom\": \"erick\",\r\n    \"status\": \"actif\",\r\n    \"ville\": \"Dunkerque\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/patients/1",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"patients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/patients/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"age\": \"36\",\r\n    \"medecinTraitant\": \"1\",\r\n    \"nom\": \"Veriepe\",\r\n    \"prenom\": \"Didier\",\r\n    \"status\": \"traite\",\r\n    \"ville\": \"Rome\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/patients/1",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"patients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://angular-medical.herokuapp.com/patients/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://angular-medical.herokuapp.com/patients/1",
+					"protocol": "http",
+					"host": [
+						"angular-medical",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"patients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
