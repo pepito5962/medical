@@ -32,3 +32,5 @@ le postman est contenu dans le fichier : medical.postman_collection.json
 Github : https://github.com/pepito5962/medical
 heroku : https://angular-medical.herokuapp.com/
 firebase hosting : https://medical-b7967.web.app
+
+Le bouton rouge à coté des noms correspond au delete
