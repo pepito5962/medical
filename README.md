@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Auteur : Erick POIX LPDIM App
+
+le postman est contenu dans le fichier : medical.postman_collection.json
+Github : https://github.com/pepito5962/medical
+heroku : https://angular-medical.herokuapp.com/
+firebase hosting : https://medical-b7967.web.app
